@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hatogan.AB.UseCases.DTOs\Hatogan.AB.UseCases.DTOs.csproj" />
+    <ProjectReference Include="..\Hatogan.EB.Domain\Hatogan.EB.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

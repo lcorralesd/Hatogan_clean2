@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0-rc.1.21451.13" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0-rc.1.21451.13" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hatogan.AB.UseCases.DTOs\Hatogan.AB.UseCases.DTOs.csproj" />
+    <ProjectReference Include="..\Hatogan.EB.Abtractions\Hatogan.EB.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
